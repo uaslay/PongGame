@@ -24,7 +24,7 @@ Game::Game()
     window.setVerticalSyncEnabled(true);
 
     // Font loading
-    if (!font.openFromFile("Fonts/CaesarDressing-Regular.ttf"))
+    if (!font.openFromFile("../Fonts/CaesarDressing-Regular.ttf"))
     {
         std::cout << "ERROR: Font not found" << std::endl;
         window.close();
